@@ -1,0 +1,16 @@
+# Domain vocabulary — one term per line. Lines starting with # and blank lines are ignored.
+# These terms are passed to Whisper as an initial prompt to bias decoding towards the
+# correct technical terminology. Curate per course or learning unit.
+
+# Example: thermodynamics (KIVi-Azubi, learning unit 4)
+Zustandsgleichung
+ideale Gase
+isotherm
+isobar
+isochor
+isentrop
+Normzustand
+spezifische Gaskonstante
+universelle Gaskonstante
+p-V-Diagramm
+Zustandsänderung
