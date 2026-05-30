@@ -6,8 +6,8 @@
 
 Whisper tends to flatten specialised terminology. Providing the domain terms as an
 ``initial_prompt`` (and, where supported, as ``hotwords``) biases decoding towards the
-correct technical terms. The vocabulary is kept in an editable plain-text file so it can
-be curated per course or learning unit.
+correct domain terms (of any subject). The vocabulary is kept in an editable plain-text
+file so it can be curated per course or learning unit.
 """
 
 from __future__ import annotations

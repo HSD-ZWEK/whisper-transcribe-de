@@ -1,6 +1,6 @@
 {
   "title": "whisper-transcribe-de",
-  "description": "A command-line tool for reproducible German speech transcription of technical and mathematical audio and video, built on WhisperX. Developed at Hochschule Düsseldorf by ZWEK within the KIVi-Azubi research project.",
+  "description": "A command-line tool for reproducible German speech transcription of audio and video, built on WhisperX. A curated domain vocabulary adapts recognition to any subject area. Developed at Hochschule Düsseldorf by ZWEK within the KIVi-Azubi research project.",
   "upload_type": "software",
   "license": "GPL-3.0-or-later",
   "access_right": "open",

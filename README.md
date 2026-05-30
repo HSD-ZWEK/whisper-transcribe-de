@@ -7,8 +7,8 @@
 [![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](pyproject.toml)
 
 whisper-transcribe-de is a command-line tool for reproducible German speech transcription
-of technical and mathematical audio and video, built on
-[WhisperX](https://github.com/m-bain/whisperx).
+of audio and video, built on [WhisperX](https://github.com/m-bain/whisperx). A curated
+domain vocabulary adapts recognition to any subject area.
 
 > **Disclaimer.** This tool is intended for recordings that the operator or their
 > institution is permitted to process. Transcription runs locally (no cloud API), which
@@ -19,11 +19,12 @@ of technical and mathematical audio and video, built on
 
 ## Overview
 
-The tool transcribes audio/video files locally with WhisperX (a faster-whisper backend
-with voice-activity detection and word-level alignment). It is geared towards German
-technical and mathematical content: a curated domain vocabulary is supplied to the model
-as a prompt to bias decoding towards the correct terminology. Each transcript is written
-in standard formats alongside a reproducibility metadata sidecar.
+The tool transcribes German audio/video files locally with WhisperX (a faster-whisper
+backend with voice-activity detection and word-level alignment). A curated domain
+vocabulary is supplied to the model as a prompt to bias decoding towards the correct
+terminology of the subject at hand — this can be any field (for example technical and
+mathematical content, but equally medicine, law or the humanities). Each transcript is
+written in standard formats alongside a reproducibility metadata sidecar.
 
 ## Features
 
@@ -65,7 +66,7 @@ invoked through `python -m whisper_transcribe_de`.
 
 ## Configuration
 
-A curated domain vocabulary improves recognition of technical terms. The vocabulary is a
+A curated domain vocabulary improves recognition of subject-specific terms. The vocabulary is a
 plain-text file (one term per line; `#` comments and blank lines are ignored). A template
 is provided in [`vocab.example.txt`](vocab.example.txt):
 
@@ -141,7 +142,7 @@ provide a reproducible, reviewable text basis for the didactic analysis.
 - **`ffmpeg` not found.** Install ffmpeg and ensure it is on `PATH`.
 - **Slow on CPU.** Use a smaller model (`--model medium`) or a CUDA device
   (`--device cuda`); WhisperX is markedly faster on a GPU.
-- **Technical terms misrecognized.** Extend the `--vocab` file with the relevant terms.
+- **Domain terms misrecognized.** Extend the `--vocab` file with the relevant terms.
 
 ## Privacy and Legal Considerations
 

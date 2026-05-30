@@ -2,9 +2,10 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata in this file."
 title: "whisper-transcribe-de"
 abstract: >-
-  A command-line tool for reproducible German speech transcription of technical and
-  mathematical audio and video, built on WhisperX. It supports domain vocabulary prompting,
-  word-level timestamps, and reproducibility metadata, and runs locally without cloud APIs.
+  A command-line tool for reproducible German speech transcription of audio and video,
+  built on WhisperX. A curated domain vocabulary adapts recognition to any subject area.
+  It supports word-level timestamps and reproducibility metadata, and runs locally without
+  cloud APIs.
 type: software
 authors:
   - family-names: "Steier"

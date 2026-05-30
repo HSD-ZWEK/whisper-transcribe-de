@@ -7,8 +7,9 @@
 [![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](pyproject.toml)
 
 whisper-transcribe-de ist ein Kommandozeilenwerkzeug für die reproduzierbare deutsche
-Transkription technischer und mathematischer Audio- und Videoinhalte, aufgebaut auf
-[WhisperX](https://github.com/m-bain/whisperx).
+Transkription von Audio- und Videoinhalten, aufgebaut auf
+[WhisperX](https://github.com/m-bain/whisperx). Ein gepflegtes Fachvokabular passt die
+Erkennung an beliebige Themengebiete an.
 
 > **Hinweis.** Dieses Werkzeug ist für Aufzeichnungen gedacht, die die ausführende Person
 > bzw. ihre Einrichtung verarbeiten darf. Die Transkription läuft lokal (keine Cloud-API),
@@ -19,11 +20,13 @@ Transkription technischer und mathematischer Audio- und Videoinhalte, aufgebaut 
 
 ## Überblick
 
-Das Werkzeug transkribiert Audio-/Videodateien lokal mit WhisperX (faster-whisper-Backend
-mit Sprachaktivitätserkennung und wortgenauer Ausrichtung). Es ist auf deutsche technische
-und mathematische Inhalte ausgerichtet: Ein gepflegtes Fachvokabular wird dem Modell als
-Prompt übergeben, um die Dekodierung zu den korrekten Termini zu lenken. Jedes Transkript
-wird in Standardformaten zusammen mit einer Reproduzierbarkeits-Metadatendatei abgelegt.
+Das Werkzeug transkribiert deutsche Audio-/Videodateien lokal mit WhisperX
+(faster-whisper-Backend mit Sprachaktivitätserkennung und wortgenauer Ausrichtung). Ein
+gepflegtes Fachvokabular wird dem Modell als Prompt übergeben, um die Dekodierung zu den
+korrekten Termini des jeweiligen Themengebiets zu lenken — das kann ein beliebiges Feld
+sein (etwa technische und mathematische Inhalte, ebenso aber Medizin, Recht oder
+Geisteswissenschaften). Jedes Transkript wird in Standardformaten zusammen mit einer
+Reproduzierbarkeits-Metadatendatei abgelegt.
 
 ## Funktionen
 

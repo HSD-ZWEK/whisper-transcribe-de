@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "whisper-transcribe-de"
 dynamic = ["version"]
-description = "Reproducible German speech transcription for technical/mathematical audio and video, built on WhisperX."
+description = "Reproducible German speech transcription for audio and video, with domain-vocabulary prompting that adapts it to any subject, built on WhisperX."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "GPL-3.0-or-later" }

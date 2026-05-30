@@ -30,7 +30,7 @@ def build_parser() -> argparse.ArgumentParser:
     """Construct the argument parser."""
     p = argparse.ArgumentParser(
         prog="whisper-transcribe-de",
-        description="Reproducible German transcription of technical audio/video (WhisperX).",
+        description="Reproducible German audio/video transcription, vocabulary-adaptable.",
     )
     p.add_argument("inputs", nargs="*", help="Audio/video files or directories.")
     p.add_argument("--model", default="large-v3", help="Whisper model (default: large-v3).")

@@ -12,8 +12,8 @@ Initial release.
 
 - Command-line tool for German transcription of audio/video built on WhisperX
   (`whisper-transcribe-de`, `python -m whisper_transcribe_de`).
-- Domain vocabulary prompting (editable term list) to bias decoding towards technical
-  terminology; word-level timestamps via WhisperX alignment.
+- Domain vocabulary prompting (editable term list) to bias decoding towards the
+  terminology of any subject; word-level timestamps via WhisperX alignment.
 - Output formats: TXT, VTT, SRT and JSON, plus a `.meta.json` reproducibility sidecar
   (engine, model, decoding parameters, source, optional provenance id).
 - Local-only processing (no cloud API); WhisperX is an optional dependency and is

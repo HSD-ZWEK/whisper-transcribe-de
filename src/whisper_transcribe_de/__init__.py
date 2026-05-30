@@ -2,8 +2,8 @@
 # Copyright (c) Hochschule Düsseldorf – University of Applied Sciences
 # ZWEK – Centre for Training and Competence Development
 # Developed within the KIVi-Azubi research project
-"""whisper-transcribe-de — reproducible German speech transcription for technical
-and mathematical audio/video, built on WhisperX.
+"""whisper-transcribe-de — reproducible German speech transcription for audio/video,
+built on WhisperX, with domain-vocabulary prompting that adapts it to any subject.
 
 The package separates pure, testable logic (vocabulary/prompt handling, output
 formatting, reproducibility metadata) from the WhisperX backend, which is imported
