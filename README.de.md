@@ -156,20 +156,19 @@ Verarbeitung liegt bei der ausführenden Person.
 
 ## Projekthintergrund
 
-Diese Software wurde an der Hochschule Düsseldorf (University of Applied Sciences) durch
-ZWEK – Centre for Training and Competence Development (Zentrum für Weiterbildung und
-Kompetenzentwicklung) im Forschungsprojekt KIVi-Azubi entwickelt.
+Diese Software wurde an der Hochschule Düsseldorf durch ZWEK – Zentrum für Weiterbildung
+und Kompetenzentwicklung im Forschungsprojekt KIVi-Azubi entwickelt.
 
 ```
-Copyright (c) Hochschule Düsseldorf – University of Applied Sciences
-ZWEK – Centre for Training and Competence Development
-Developed within the KIVi-Azubi research project
+Copyright (c) Hochschule Düsseldorf
+ZWEK – Zentrum für Weiterbildung und Kompetenzentwicklung
+Entwickelt im Forschungsprojekt KIVi-Azubi
 ```
 
 ## Forschungskontext
 
 Das Werkzeug wurde im Forschungsprojekt KIVi-Azubi an der Hochschule Düsseldorf, ZWEK –
-Centre for Training and Competence Development, entwickelt. Das Projekt führt eine
+Zentrum für Weiterbildung und Kompetenzentwicklung, entwickelt. Das Projekt führt eine
 medienpädagogische Analyse digitaler Lehr-/Lerninfrastrukturen durch und analysiert
 Moodle-Lerneinheiten anhand der revidierten Bloom-Taxonomie (Anderson & Krathwohl) und
 TPACK (Mishra & Koehler).

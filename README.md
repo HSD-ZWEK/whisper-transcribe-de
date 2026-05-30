@@ -153,9 +153,9 @@ respective institution. Responsibility for lawful processing rests with the oper
 
 ## Project Background
 
-This software was developed at Hochschule Düsseldorf (University of Applied Sciences) by
-ZWEK – Centre for Training and Competence Development (Zentrum für Weiterbildung und
-Kompetenzentwicklung) within the KIVi-Azubi research project.
+This software was developed at Hochschule Düsseldorf – University of Applied Sciences
+(HSD for short) by ZWEK – Centre for Training and Competence Development within the
+KIVi-Azubi research project.
 
 ```
 Copyright (c) Hochschule Düsseldorf – University of Applied Sciences
@@ -165,8 +165,8 @@ Developed within the KIVi-Azubi research project
 
 ## Research Context
 
-The tool was developed within the KIVi-Azubi research project at Hochschule Düsseldorf,
-ZWEK – Centre for Training and Competence Development. The project conducts a
+The tool was developed within the KIVi-Azubi research project at Hochschule Düsseldorf –
+University of Applied Sciences, ZWEK – Centre for Training and Competence Development. The project conducts a
 media-pedagogical analysis of digital teaching and learning infrastructures and analyses
 Moodle learning units through the revised Bloom taxonomy (Anderson & Krathwohl) and TPACK
 (Mishra & Koehler).
